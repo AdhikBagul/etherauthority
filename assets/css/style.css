@@ -2378,6 +2378,7 @@ section {
 
 .footer .footer-top .footer-info {
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .footer .footer-top .footer-info .logo {
@@ -2386,8 +2387,10 @@ section {
 }
 
 .footer .footer-top .footer-info .logo img {
-  max-height: 40px;
-  margin-right: 6px;
+ /* max-height: 40px;
+  margin-right: 6px;*/
+  max-height: 90px;
+  max-width: 100%;
 }
 
 .footer .footer-top .footer-info .logo span {
@@ -2635,4 +2638,7 @@ section {
       margin-right: 6px;
       max-width: 100%;
   }
+
+
+
 }
