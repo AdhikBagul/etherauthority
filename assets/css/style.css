@@ -238,8 +238,8 @@ section {
 --------------------------------------------------------------*/
 .header {
   transition: all 0.5s;
-  z-index: 997;
-  padding: 20px 0;
+  z-index: 1400;
+  padding: 5px 0;
 }
 
 .header.header-scrolled {
@@ -2612,6 +2612,55 @@ section {
 
 .nb-form input[type='submit'] {
     background:#0072b3;
+}
+
+@media(min-width: 768px) {
+  .hero h1 {
+    font-size: 32px;
+  }
+  .hero h2 {
+    font-size: 18px;
+  }
+  .header .logo img {
+    max-height: 50px;
+    margin-right: 6px;
+    max-width: 100%;
+  }
+}
+
+@media(min-width: 1024px) {
+  .hero h1 {
+    font-size: 32px;
+  }
+  .hero h2 {
+    font-size: 18px;
+  }
+  .header .logo img {
+    max-height: 50px;
+    margin-right: 6px;
+    max-width: 100%;
+  }
+}
+
+
+@media(min-width: 1200px) {
+  .hero h1 {
+    font-size: 40px;
+  }
+  .hero h2 {
+    font-size: 26px;
+  }
+  .header .logo img {
+    max-height: 90px;
+    margin-right: 6px;
+    max-width: 100%;
+}
+}
+
+@media(min-width: 1400px) {
+  .hero h1 {
+    font-size: 53px;
+  }
 }
 
 @media screen and (max-width: 676px) {
