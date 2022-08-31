@@ -874,6 +874,10 @@ section {
   border-radius: 5px;
 }
 
+.our-workflow .services .service-box {
+  padding: 30px 30px;
+}
+
 .services .service-box .icon {
   font-size: 36px;
   padding: 40px 20px;
@@ -920,6 +924,10 @@ section {
 
 .services .service-box.blue:hover {
   background: #2db6fa;
+}
+
+.our-workflow .services .service-box.blue:hover {
+  background: #ffffff;
 }
 
 .services .service-box.orange {
